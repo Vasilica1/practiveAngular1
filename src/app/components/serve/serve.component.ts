@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServeComponent implements OnInit {
   id: number = 10;
   status: string = 'offline';
+  name: string = 'Cernovschi Vasilica';
 
   constructor() { }
 
